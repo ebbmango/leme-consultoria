@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg leme-navbar fixed-bottom">
+  <div class="container-fluid d-flex justify-content-around align-items-start py-3">
+    <div class="column">
+      <h5>Contato</h5>
+      <div class="d-flex align-items-baseline">
+        <i class="fa-solid fa-phone me-2"></i>
+        <p>+55 21 3434-5656</p>
+      </div>
+      <div class="d-flex align-items-baseline">
+        <i class="fa-solid fa-location-dot me-2"></i>
+        <p>Avenida das Américas, 1155<br>Sala 2007, Barra da Tijuca<br>CEP 22631-903</p>
+      </div>
+      <div class="d-flex align-items-baseline">
+        <i class="fa-solid fa-location-dot me-2"></i>
+        <p>SHIS, Ql 12, Casa 16<br>Península dos Ministérios, Lago Sul<br>CEP 71630-255</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <h5>Mapa do Site</h5>
+      <div><%= link_to 'Quem somos', sobre_path, class: 'footer-link' %></div>
+      <div><%= link_to 'Áreas de Atuação', sobre_path, class: 'footer-link' %></div>
+      <div><%= link_to 'Setores Econômicos', sobre_path, class: 'footer-link' %></div>
+      <div><%= link_to 'Nosso time', sobre_path, class: 'footer-link' %></div>
+      <div class="d-flex">
+        <%= link_to '#', class: 'footer-link mx-2' do %>
+          <i class="fa-brands fa-linkedin"></i>
+        <% end %>
+        <%= link_to '#', class: 'footer-link mx-2' do %>
+          <i class="fa-brands fa-twitter"></i>
+        <% end %>
+        <%= link_to '#', class: 'footer-link mx-2' do %>
+          <i class="fa-brands fa-instagram"></i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</nav>
