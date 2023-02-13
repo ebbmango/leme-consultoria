@@ -4,7 +4,9 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
   connect() {
     const itemId = window.location.pathname.split('/')[1]
-    const itemElement = document.getElementById(itemId)
-    itemElement.classList.add('nav-link-active')
+    if (itemId) {
+      const itemElement = document.getElementById(itemId)
+      itemElement.classList.add('nav-link-active')
+    }
   }
 }
