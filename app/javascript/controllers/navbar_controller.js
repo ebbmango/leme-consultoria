@@ -3,6 +3,8 @@ import { Controller } from "@hotwired/stimulus"
 // Connects to data-controller="navbar"
 export default class extends Controller {
   connect() {
-    console.log('Hello world!');
+    const itemId = window.location.pathname.split('/')[1]
+    const itemElement = document.getElementById(itemId)
+    itemElement.classList.add('nav-link-active')
   }
 }
