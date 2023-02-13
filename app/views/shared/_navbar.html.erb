@@ -9,7 +9,7 @@
     <%= link_to 'Quem somos', sobre_path, class: 'nav-link navbar-link', id: 'sobre' %>
 
     <div class="dropdown" data-controller="dropdown" data-action="mouseover->dropdown#expand mouseout->dropdown#collapse">
-      <a id="areas" class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-dropdown-target="dropdown">Áreas de Atuação</a>
+      <a id="areas" class="nav-link navbar-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" data-dropdown-target="dropdown">Áreas de Atuação</a>
       <div class="dropdown-menu" data-dropdown-target="menu">
         <%= link_to 'Elaboração de Projetos de viabilidade econômico-financeira', areas_path(anchor: 'a1'), class: 'dropdown-item' %>
         <%= link_to 'Assistência técnica administrativa, judicial e arbitral',    areas_path(anchor: 'a2'), class: 'dropdown-item' %>
@@ -20,7 +20,7 @@
     </div>
 
     <div class="dropdown" data-controller="dropdown" data-action="mouseover->dropdown#expand mouseout->dropdown#collapse">
-      <a id="setores" class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-dropdown-target="dropdown">Setores Econômicos</a>
+      <a id="setores" class="nav-link navbar-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" data-dropdown-target="dropdown">Setores Econômicos</a>
       <div class="dropdown-menu" data-dropdown-target="menu">
         <%= link_to 'Agronegócio',              setores_path(anchor: 's1'), class: 'dropdown-item' %>
         <%= link_to 'Infraestrutura',           setores_path(anchor: 's2'), class: 'dropdown-item' %>
