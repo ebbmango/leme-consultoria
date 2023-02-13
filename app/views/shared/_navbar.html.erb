@@ -6,10 +6,10 @@
     <% end %>
 
     <%# Navbar's items %>
-    <%= link_to 'Quem somos', sobre_path, class: 'nav-link navbar-link' %>
+    <%= link_to 'Quem somos', sobre_path, class: 'nav-link navbar-link', id: 'sobre' %>
 
     <div class="dropdown">
-      <a class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Áreas de Atuação</a>
+      <a id="areas" class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Áreas de Atuação</a>
       <div class="dropdown-menu">
         <%= link_to 'Elaboração de Projetos de viabilidade econômico-financeira', areas_path(anchor: 'a1'), class: 'dropdown-item' %>
         <%= link_to 'Assistência técnica administrativa, judicial e arbitral',    areas_path(anchor: 'a2'), class: 'dropdown-item' %>
@@ -20,7 +20,7 @@
     </div>
 
     <div class="dropdown">
-      <a class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Setores Econômicos</a>
+      <a id="setores" class="nav-link navbar-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Setores Econômicos</a>
       <div class="dropdown-menu">
         <%= link_to 'Agronegócio',              setores_path(anchor: 's1'), class: 'dropdown-item' %>
         <%= link_to 'Infraestrutura',           setores_path(anchor: 's2'), class: 'dropdown-item' %>
@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <%= link_to 'Nosso time', time_path, class: 'nav-link navbar-link' %>
+    <%= link_to 'Nosso time', time_path, class: 'nav-link navbar-link', id: 'time' %>
 
     <%# Social media icons %>
     <div class="d-flex">
