@@ -3,6 +3,13 @@
   text-transform: uppercase;
 }
 
+.nav-link:hover {
+  color: #c8c8c8;
+  font-weight: 400;
+  border: none;
+  text-overflow: clip;
+}
+
 .leme-navbar {
   background-color: #201c4c;
   color: white;
@@ -22,4 +29,3 @@
 .container {
   padding: 6px;
 }
-
