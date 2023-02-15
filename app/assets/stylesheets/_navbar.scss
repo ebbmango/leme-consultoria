@@ -4,10 +4,22 @@
 }
 
 .leme-navbar {
-  background-color: #0D0043;
+  background-color: #201c4c;
   color: white;
 }
 
 .nav-link-active {
-  color: #3100f5 !important;
+  color: #d4d4d4 !important;
 }
+
+.dropdown {
+  font-family: 'Roboto', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  font-weight: 600;
+  text-overflow: clip;
+}
+
+.container {
+  padding: 6px;
+}
+
