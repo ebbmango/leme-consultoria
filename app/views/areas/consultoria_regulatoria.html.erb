@@ -1,11 +1,1 @@
-<div class="container d-flex align-items-center gap-5">
-  <div>
-    <%= render 'areas_menu' %>
-  </div>
-  <div>
-    <h1 class="titulo-principal">Áreas de Atuação</h1>
-    <h2 class="titulo-subtopico">Consultoria Regulatória e em Infraestrutura</h2>
-    <p class="texto-subtopico">No contexto da regulação setorial, elaboramos estudos e projetos com o objetivo de subsidiar soluções para questões econômicas, financeiras e regulatórias, relacionadas à infraestrutura, como transportes, telecomunicações e energia.
-    Ao lidar com setores regulados, entendemos ser imprescindível possuir um amplo conhecimento não apenas sobre a dinâmica competitiva de sua cadeia produtiva, como também no que se refere à estrutura e ao funcionamento dos órgãos responsáveis.</p>
-  </div>
-</div>
+<%= render 'shared/page', menu: 'areas/areas_menu', content: '/areas/contents/consultoria_regulatoria_content'  %>
