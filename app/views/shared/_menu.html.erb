@@ -1,0 +1,7 @@
+<ul class="list-group">
+  <% items.each do |item| %>
+    <li class="list-group-item text-nowrap">
+      <%= link_to item[:link_text], item[:link_address] %>
+    </li>
+  <% end %>
+</ul>
