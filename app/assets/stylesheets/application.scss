@@ -1,2 +1,98 @@
 @import "navbar";
 @import "footer";
+
+
+
+
+.titulo-principal {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 800;
+    padding: 24px;
+    height: 9em;
+    display: flex;
+    align-items: center;
+    justify-content: center }
+
+
+
+.titulo-subtopico {
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 300;
+}
+
+.texto-subtopico {
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-size: 18pt;
+    font-weight: 300;
+    text-overflow: clip;
+    
+}
+
+
+
+.quem-somos {
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-size: 18pt;
+    font-weight: 600;
+    text-overflow: clip;
+}
+
+
+
+.equipe {
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 600;
+    padding-top: 48px;
+    text-overflow: clip;
+}
+
+.email-socios {
+
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 300;
+    padding-top: 0%;
+    text-overflow: clip;
+}
+
+.cargo-socios 
+{
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 600;
+    padding-top: 0%;
+    text-overflow: clip;
+}
+
+.curriculo-socios
+{
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 300;
+    padding-top: 0%;
+    text-overflow: clip;
+
+}
+
+.botao-cv {
+    font-family: 'Oswald', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 600;
+    padding-top:0%;
+    text-overflow: clip;
+}
