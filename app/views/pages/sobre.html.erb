@@ -1,12 +1,19 @@
- <body> 
- <div class="container">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path('sobre') %>);">
+  <h1 class="text-white text-center">
+    Quem somos
+  </h1>
+</div>
 
- <p  class= "quem-somos">A LEME é uma consultoria especializada em demandas de alta complexidade, 
-  atuando na elaboração de projetos de viabilidade econômico-financeira, prestando
-  assistência técnica administrativa, judicial e arbitral, consultoria nas searas 
-  concorrencial e regulatória, finanças e infraestrutura.</p>
-<p class= "quem-somos">Cada uma dessas áreas de atuação tem que ter um hyperlink que direcione para uma página autônoma. </p>
- <p class= "quem-somos"> Possuímos uma equipe multidisciplinar, reunindo engenheiros, contadores e economistas, capazes de atuar
-  em projetos que envolvam diferentes áreas do conhecimento, dentre elas, contabilidade, estatística,
-  econometria e programação.</p> 
-   </div>
+<div class="container mt-5">
+  <p class= "quem-somos">
+    A LEME é uma consultoria especializada em demandas de alta complexidade, atuando na
+    <%= link_to 'elaboração de projetos de viabilidade econômico-financeira', elaboracao_projetos_path %>, prestando
+    <%= link_to 'assistência técnica administrativa, judicial e arbitral', assistencia_tecnica_path %>, consultoria nas searas
+    <%= link_to 'concorrencial', consultoria_concorrencial_path %>
+    e
+    <%= link_to 'regulatória', consultoria_regulatoria_path %>,
+    <%= link_to 'finanças', consultoria_financas_path %> e
+    <%= link_to 'infraestrutura', infraestrutura_path %>.
+  </p>
+  <p class= "quem-somos"> Possuímos uma equipe multidisciplinar, reunindo engenheiros, contadores e economistas, capazes de atuar em projetos que envolvam diferentes áreas do conhecimento, dentre elas, contabilidade, estatística, econometria e programação.</p>
+</div>
