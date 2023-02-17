@@ -7,6 +7,7 @@ export default class extends Controller {
     if (itemId) {
       const itemElement = document.getElementById(itemId)
       itemElement.classList.add('active')
+      itemElement.classList.add('jujubinhas')
       itemElement.setAttribute("aria-current", "true")
     }
   }

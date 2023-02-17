@@ -4,7 +4,6 @@
 @import "card";
 @import "grid";
 
-
 .titulo-principal {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -96,4 +95,11 @@
     font-weight: 600;
     padding-top:0%;
     text-overflow: clip;
+}
+
+.jujubinhas {
+  background-color: #201c4c !important;
+  border-color: #201c4c !important;
+  font-family: 'Roboto', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 }
