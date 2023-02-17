@@ -1,2 +1,77 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+
+  <h2 class="text-center my-5">Áreas de Atuação</h2>
+  <div class="cards">
+    <%= link_to elaboracao_projetos_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('elaboracao_projetos') %>)">
+        Elaboração de projetos de viabilidade econômico-financeira
+      </div>
+    <% end %>
+
+    <%= link_to assistencia_tecnica_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('assistencia_tecnica') %>)">
+        Assistência técnica administrativa, judicial e arbitral
+      </div>
+    <% end %>
+
+    <%= link_to consultoria_financas_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('consultoria_financas') %>)">
+        Consultoria em Finanças
+      </div>
+    <% end %>
+
+    <%= link_to consultoria_concorrencial_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('consultoria_concorrencial') %>)">
+        Consultoria Concorrencial
+      </div>
+    <% end %>
+
+    <%= link_to consultoria_regulatoria_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('consultoria_regulatoria') %>)">
+        Consultoria Regulatória e em Infraestrutura
+      </div>
+    <% end %>
+  </div>
+
+  <hr class="mt-5">
+
+  <h2 class="text-center my-5">Setores Econômicos</h2>
+  <div class="cards">
+    <%= link_to agronegocio_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('agronegocio') %>)">
+        Agronegócio
+      </div>
+    <% end %>
+
+    <%= link_to infraestrutura_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('infraestrutura') %>)">
+        Infraestrutura
+      </div>
+    <% end %>
+
+    <%= link_to construcao_civil_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('construcao_civil') %>)">
+        Construção Civil
+      </div>
+    <% end %>
+
+    <%= link_to varejo_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('varejo') %>)">
+        Varejo
+      </div>
+    <% end %>
+
+    <%= link_to instituicoes_financeiras_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('instituicoes_financeiras') %>)">
+        Instituições Financeiras
+      </div>
+    <% end %>
+
+    <%= link_to industria_path do %>
+      <div class="card-category text-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path('industria') %>)">
+        Indústria
+      </div>
+    <% end %>
+  </div>
+
+</div>
