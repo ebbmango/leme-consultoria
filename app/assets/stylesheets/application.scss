@@ -5,6 +5,18 @@
 @import "grid";
 @import "text";
 
+.carousel-item {
+    font-family: 'Roboto', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    font-size: 18pt;
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-weight: 300;
+}
+
+.container-button {
+    text-decoration: none;
+  }
+
 .titulo-principal {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -103,8 +115,17 @@
 }
 
 .jujubinhas {
-  background-color: #2b00a1 !important;
-  border-color: #2b00a1 !important;
+  background-color: #0e799d !important;
+  border-color: #0e799d !important;
   font-family: 'Roboto', sans-serif;
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+}
+
+.text-center {
+    font-family: 'Roboto', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-size: 36pt;
+    font-weight: 500;
+    text-overflow: clip;
 }
