@@ -16,9 +16,11 @@
       </div>
     </div>
 
-    <div class="column">
-      <%= image_tag 'logo-leme', style: 'height: 150px' %>
-    </div>
+    <%= link_to root_path, class: 'navbar-brand' do %>
+      <div class="column">
+        <%= image_tag 'logo-leme', style: 'height: 150px' %>
+      </div>
+    <% end %>
 
     <div class="column">
       <h5 class="mb-3">Mapa do Site</h5>
