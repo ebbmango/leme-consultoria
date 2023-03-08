@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'areas/consultoria_financas',      to: 'areas#consultoria_financas',      as: 'consultoria_financas'
   get 'areas/consultoria_concorrencial', to: 'areas#consultoria_concorrencial', as: 'consultoria_concorrencial'
   get 'areas/consultoria_regulatoria',   to: 'areas#consultoria_regulatoria',   as: 'consultoria_regulatoria'
+  get 'areas/direitos_creditorios',      to: 'areas#direitos_creditorios',      as: 'direitos_creditorios'
   # Setores Econômicos
   get 'setores/agronegocio',              to: 'setores#agronegocio',              as: 'agronegocio'
   get 'setores/infraestrutura',           to: 'setores#infraestrutura',           as: 'infraestrutura'
