@@ -13,4 +13,7 @@ class AreasController < ApplicationController
 
   def consultoria_regulatoria
   end
+
+  def direitos_creditorios
+  end
 end
