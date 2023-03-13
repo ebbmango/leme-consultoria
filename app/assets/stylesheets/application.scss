@@ -131,7 +131,7 @@
     font-family: 'Roboto', sans-serif;
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
     color: rgba($color: #646464, $alpha: 1.0);
-    font-size: 36pt;
+    font-size: 28pt;
     font-weight: 500;
     text-overflow: clip;
 }
@@ -140,7 +140,30 @@ a {
   text-decoration: none !important;
 }
 
+.titulo-sub-subtopico {
+    font-family: 'Roboto', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-size: 18pt;
+    font-weight: 500;
+    text-overflow: clip;
+    text-align: justify;
+}
 
+.bullet {
+    font-family: 'Roboto', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    color: rgba($color: #646464, $alpha: 1.0);
+    font-size: 16pt;
+    font-weight: 500;
+    text-overflow: clip;
+    text-align: justify;
+
+}
+
+.cards {
+    padding: 40px;
+}
     
 
 
